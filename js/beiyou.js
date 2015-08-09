@@ -1,10 +1,20 @@
 
-function init() {
+function menu_hover() {
+	var flag;
 	$("#header_menu ul li a").hover(function() {
-		$(this).attr("class","current");	
+		flag = $(this).attr("class");
+		if (flag == "") {
+			$(this).attr("class","current");
+		};
 	},function() {
-		$(this).removeClass("current");
+		if (flag == "") {
+			$(this).removeClass("current");
+		};
 	});
+}
+
+function init() {
+	menu_hover();
 
 	$('#one').ContentSlider({
                     width : '920px',
@@ -13,9 +23,6 @@ function init() {
                     easing : 'easeInOutBack'
               });
 }
-
-
-
 
 $(document).ready(function () {
 	init();
