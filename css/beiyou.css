@@ -72,9 +72,30 @@ body {
 	width: 920px;
 	margin: 0 auto;
 	padding: 30px;
+	height: 100px;
 }
 
 #content_main {
 	width: 620px;
 	float: left;
 }
+
+#content_slider {
+	float: right;
+}
+
+#footer {
+	height: 50px;
+	background: url(../images/footer_bg.jpg);
+}
+
+#footer_content {
+	width: 940px;
+	padding: 10px 20px;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+}
+
