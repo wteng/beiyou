@@ -29,6 +29,7 @@ body {
 #header_menu {
 	height: 39px;
 	padding-top: 6px;
+	padding-bottom: 6px;
 }
 
 #header_menu ul {
@@ -50,6 +51,17 @@ body {
 
 #header_menu ul li a:hover,#header_menu ul li .current {
 	color: #fff;
-	/*background: url(../images/menu_hover.png);*/
 	background: url(../images/btn_bg.png);
+}
+
+#header_banner {
+	width: 980px;
+	height: 200px;
+	padding: 50px 30px;
+	background: url(../images/banner_bg.jpg);
+}
+
+.contentslider {
+	width: 920px;
+	height: 200px;
 }
