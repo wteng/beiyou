@@ -8,18 +8,48 @@
 #header_title {
 	width: 920px;
 	padding: 0 30px;
+	height: 98px;
 }
 
 #site_title {
 	width: 300px;
-	padding: 15px 0 0 0;
+	padding: 20px 0 0 0;
 }
 
 body {
+	margin: 0;
 	color: #555;
 	background: url(../images/body.jpg);
 }
 
 #site_title h1 {
 	margin: 0;
+}
+
+#header_menu {
+	height: 39px;
+	padding-top: 6px;
+}
+
+#header_menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#header_menu ul li a {
+	float: left;
+	width: 109px;
+	text-align: center;
+	text-decoration: none;
+	padding: 8px 0 0 0;
+	height: 32px;
+	color: #555;
+	font-weight: bold;
+}
+
+#header_menu ul li a:hover,#header_menu ul li .current {
+	color: #fff;
+	/*background: url(../images/menu_hover.png);*/
+	background: url(../images/btn_bg.png);
 }
