@@ -20,6 +20,7 @@ body {
 	margin: 0;
 	color: #555;
 	background: url(../images/body.jpg);
+	background-repeat: repeat-x;
 }
 
 #site_title h1 {
@@ -56,7 +57,7 @@ body {
 
 #header_banner {
 	width: 980px;
-	height: 200px;
+	height: 202px;
 	padding: 50px 30px;
 	background: url(../images/banner_bg.jpg);
 }
@@ -64,4 +65,16 @@ body {
 .contentslider {
 	width: 920px;
 	height: 200px;
+}
+
+#content {
+	background: url(../images/content_top.jpg) repeat-x;
+	width: 920px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+#content_main {
+	width: 620px;
+	float: left;
 }
